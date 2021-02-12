@@ -39,6 +39,10 @@ class priority_queue{
 
     public: 
 
+    int getSize(){
+        return array.size(); 
+    }
+
     void insert(DataType data){
         array.push_back(data);
         fixUp(); 
