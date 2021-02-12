@@ -59,7 +59,7 @@ class priority_queue{
     }
 
     bool isEmpety(){
-        return array.empty() == 0;
+        return array.empty();
     }
 
     void print(){
